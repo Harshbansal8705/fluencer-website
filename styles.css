@@ -1,0 +1,113 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main .hero {
+    background-image: url("images/background-image.png");
+    background-size: cover;
+    height: 89vh;
+}
+
+main .hero div.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .hero div.head div.logo {
+    margin: 1.5rem 0;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    background-color: #efefef;
+    padding-left: 2.5rem;
+    border-radius: 0 2rem 2rem 0;
+    box-shadow: 0 3px 3px grey;
+    float: left;
+}
+
+main .hero div.head div.logo img {
+    width: 4rem;
+    height: 4rem;
+}
+
+main .hero div.head div.login {
+    margin: 2rem;
+}
+
+button, input {
+    padding: 0.7rem 1.5rem;
+    margin: 0 0.2rem;
+    border-radius: 8px;
+    border: 1px solid grey;
+    font-size: 1rem;
+    box-shadow: 2px 3px 3px rgb(150, 150, 150);
+}
+
+button {
+    font-weight: bold;
+}
+
+main .hero div.head div.login button.sign-in {
+    background: transparent;
+    border: 1px solid #a9a9a9;
+    box-shadow: none;
+}
+
+main .hero div.head div.login button.sign-up {
+    box-shadow: none;
+}
+
+button.bg-red {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+main .hero div.main img {
+    height: 25rem;
+    margin: 3rem;
+}
+
+input {
+    padding-top: calc(0.7rem - 1px);
+    padding-bottom: calc(0.7rem - 1px);
+    padding-left: calc(1.5rem - 1px);
+    padding-right: calc(1.5rem - 1px);
+    height: max-content;
+}
+
+main .hero div.main div.input {
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    width: max-content;
+    margin: auto;
+}
+
+main .hero div.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .hero div.main h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 3px 3px #7e7e7e;
+    font-weight: 700;
+}
+
+main .hero div.main h2 span {
+    color: red;
+}
+
+main .hero div.main div.input input {
+    width: 25rem;
+}
