@@ -111,3 +111,39 @@ main .hero div.main h2 span {
 main .hero div.main div.input input {
     width: 25rem;
 }
+@media (max-width:1025px){
+
+    html{
+        font-size: 50%;
+    }  
+  
+}
+
+@media (max-width: 768px){
+
+    html{
+        display: inline-block;
+    }   
+
+}
+
+@media (max-width: 450px){
+
+    html{
+        font-size: 40%;
+    }
+
+ 
+}
+@media (max-width: 300px)
+{
+    html{
+        font-size: 50%;
+    }
+
+    main .hero div.main img {
+    height: 25rem;
+    margin: 3rem;
+    padding-left: 30rem;
+     }
+}
