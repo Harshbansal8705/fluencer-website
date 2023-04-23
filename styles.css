@@ -133,7 +133,9 @@ main .hero div.main div.input input {
         font-size: 40%;
     }
 
- 
+    main .hero div.main {
+        flex-direction: column;
+    }
 }
 @media (max-width: 300px)
 {
